@@ -1,5 +1,5 @@
 FROM mysql:latest
-COPY ./my.cnf /etc/mysql/conf.d/
+COPY ./docker/mysql/my.cnf /etc/mysql/conf.d/
 RUN apt-get update
 RUN apt-get install -y locales
 RUN apt-get clean
