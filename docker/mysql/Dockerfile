@@ -1,4 +1,4 @@
-FROM mysql:latest
+FROM mysql:8.0.36-bookworm
 COPY ./docker/mysql/my.cnf /etc/mysql/conf.d/
 RUN apt-get update
 RUN apt-get install -y locales
