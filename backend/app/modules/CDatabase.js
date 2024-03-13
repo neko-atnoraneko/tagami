@@ -9,7 +9,7 @@ var CDatabase = /** @class */ (function () {
     CDatabase.prototype.createDatabaseTables = function () {
         // DBに接続する設定情報
         mysql.createConnection({
-            host: "localhost",
+            host: "mysql",
             user: "root",
             password: "tagamiroot",
             database: "tagami_db",
