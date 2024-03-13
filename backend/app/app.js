@@ -1,5 +1,5 @@
 const express = require("express");
-const database = require("./modules/CDatabase");
+const CDatabase = require("./modules/CDatabase").default;
 const app = express();
 const port = 9000;
 
