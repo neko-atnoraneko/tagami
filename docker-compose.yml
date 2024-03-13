@@ -58,7 +58,7 @@ services:
     ports:
       - 9000:9000
     volumes:
-      - ./backend/app:/app
+      - ./backend:/app
     tty: true
     networks:
       - app-network
